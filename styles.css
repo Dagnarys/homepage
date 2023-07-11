@@ -31,6 +31,16 @@ header{
     
 }
 
+@media screen and (max-width:768px) {
+    h1{
+        font-size:1.5rem;
+    }
+    a,h2{
+        font-size:1.2rem;
+    }
+    
+}
+
 ul{
     display: flex;
     flex-direction: row;
@@ -68,7 +78,7 @@ a::before{
     
 }
 .description h2{
-    
+    min-width:20%;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
@@ -81,6 +91,7 @@ a::before{
 }
 .description img{
     display: flex;
+    min-width: 20%;
     max-width: 50%;
     height: auto;
     background-color: aqua;
